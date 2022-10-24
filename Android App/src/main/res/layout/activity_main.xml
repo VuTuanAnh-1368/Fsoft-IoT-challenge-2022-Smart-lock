@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/unlock"
+        android:layout_width="173dp"
+        android:layout_height="155dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="356dp"
+        android:alpha="0.25"
+        android:background="#0000"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/unlock"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/lock"
+        android:layout_width="173dp"
+        android:layout_height="155dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="109dp"
+        android:alpha="0.25"
+        android:background="#0000"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/lock"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/notifyVal"
+        android:layout_width="370dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="579dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:shadowColor="#cccccc"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="0.8"
+        android:text="Number of persons present in the room: "
+        android:textColor="#cccccc"
+        android:textSize="25sp"
+        android:lineSpacingExtra="10sp"/>
+
+    <!--#0000ff--><!--#cccccc-->
+</RelativeLayout>

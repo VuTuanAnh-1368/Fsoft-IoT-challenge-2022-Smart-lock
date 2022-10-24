@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/dialog_heading1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/dialog_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Select a Bluetooth Device"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dialog_heading2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="DEVICE LIST"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/ble_device_list"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/dialog_footer">
+
+        <TextView
+            android:id="@+id/scanning_status"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#00CCFF"
+            android:gravity="center"
+            android:text="SCANNING DEVICES..."
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+    </RelativeLayout>
+
+</LinearLayout>
