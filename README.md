@@ -5,6 +5,7 @@ Fsoft IoT challenge 2022 – Smart lock – Team optimization
 Optimization team: Vũ Tuấn Anh, Nguyễn Công, Lê Duy Quang, Nguyễn Gia Bảo
 
 Leader: Vũ Tuấn Anh
+
 Mentor: Nguyễn Tuấn Anh
 
 This is the source code for a smart lock system using Silicon Labs' BGM220
