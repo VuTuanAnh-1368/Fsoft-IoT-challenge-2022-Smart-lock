@@ -3,6 +3,7 @@ Fsoft IoT challenge 2022 – Smart lock – Team optimization
 
 
 Optimization team: Vũ Tuấn Anh, Nguyễn Công, Lê Duy Quang, Nguyễn Gia Bảo
+
 Leader: Vũ Tuấn Anh
 Mentor: Nguyễn Tuấn Anh
 
